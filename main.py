@@ -7,6 +7,8 @@ def main():
     for field in page.widgets():
       print('Input info:')
       print(field.field_name)
+      print(field.field_label)
+      print(field.field_type_string)
       print(field.field_value)
       print('----')
 
